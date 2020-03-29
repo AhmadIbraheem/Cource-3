@@ -1,7 +1,6 @@
 *{
 	box-sizing: border-box;
 	font-family: Brush Script MT, Calibri;
-	font-size: 1.1em;
 }
 body {
     background-color: #006666;
@@ -14,17 +13,17 @@ h1 {
     background-color: #b399ff;
     margin: 10px;
 }
-section>h2 {
+section>h4 {
     float: right;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0px;
-    width: 270px;
+    width: 150px;
     text-align: center;
     font-style: Times;
     font-size: 24px;
     font-weight: bold;
-    height: 40px;
+    height: 35px;
     padding-top: 0px;
     background-color: #99ffff;
     /*
@@ -32,10 +31,20 @@ section>h2 {
     */
 }
 section>p {
-    padding: 40px 15px 15px 15px;
+    padding: 30px 15px 15px 15px;
 }
 .row {
     width: 100%;
+    margin-top: 30px;
+}
+section.beliver>h4 {
+	background-color: #b3d9ff ;
+}
+section.sway>h4 {
+	background-color: #ff99cc ;
+}
+section.memories>h4 {
+	background-color: #660033 ;
 }
 
 @media (min-width: 992px ){
